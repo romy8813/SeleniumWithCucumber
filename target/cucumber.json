@@ -1,0 +1,93 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Facebook Home page is displayed",
+        "description": "",
+        "id": "login-facebook-page;facebook-home-page-is-displayed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8487192698,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is already on login page",
+            "match": {
+              "location": "loginStepDefinition.userOnLoginPAge()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16040093,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Title of login page is Facebook",
+            "match": {
+              "location": "loginStepDefinition.titlepgeISDisplayed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 385825991,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters \"romy8813\" and \"Diners123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "romy8813",
+                  "offset": 13
+                },
+                {
+                  "val": "Diners123",
+                  "offset": 28
+                }
+              ],
+              "location": "loginStepDefinition.enterUserNameAndPassword(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10341539356,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "loginStepDefinition.clickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 721095588,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "home page is displayed",
+            "match": {
+              "location": "loginStepDefinition.homePageDisplayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login Facebook Page",
+    "description": "",
+    "id": "login-facebook-page",
+    "keyword": "Feature",
+    "uri": "file:login.feature",
+    "tags": []
+  }
+]
