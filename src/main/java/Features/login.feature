@@ -5,6 +5,6 @@ Scenario: Facebook Home page is displayed
 
 Given User is already on login page	
 When Title of login page is Facebook
-Then User enters "romy8813" and "Diners123"
+Then User enters "romy8813" and "3"
 And user clicks on login button
 And home page is displayed
